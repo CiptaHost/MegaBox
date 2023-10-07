@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/571257941d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <i style="font-size:150px;color:purple" class="bi bi-person-circle"></i>
+        <h2>MATCHBOX LOGIN</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Email / Username<span>*</span> :</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan Email / Ussername" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password<span>*</span> :</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+            </div>
+            <input type="checkbox">Ingat Saya<br>
+            <button type="submit">Login</button>
+             <p id="error-message" class="error-message"></p>
+        </form>
+        
+        <p>Belum Punya Akun? <a href="./register">Register</a></p>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
